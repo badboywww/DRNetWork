@@ -18,5 +18,19 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "DRNetWork/Classes/**/*"
+  "source_files": "DRNetWork/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Reachability": [
+
+    ],
+    "SVProgressHUD": [
+
+    ],
+    "MBProgressHUD": [
+
+    ]
+  }
 }
