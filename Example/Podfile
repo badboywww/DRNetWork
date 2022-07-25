@@ -5,12 +5,12 @@ platform :ios, '10.0'
 target 'DRNetWork_Example' do
   pod 'DRNetWork', :path => '../'
   
-  pod 'AFNetworking'
-  pod 'Reachability'
-  
-  # 提示框
-  pod 'SVProgressHUD'
-  pod 'MBProgressHUD'
+#  pod 'AFNetworking'
+#  pod 'Reachability'
+#  
+#  # 提示框
+#  pod 'SVProgressHUD'
+#  pod 'MBProgressHUD'
 
 
   target 'DRNetWork_Tests' do

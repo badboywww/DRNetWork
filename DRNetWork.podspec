@@ -33,10 +33,10 @@ Pod::Spec.new do |s|
   s.source_files = 'DRNetWork/Classes/**/*'
   
   
-  s.dependency 'AFNetworking'
-  s.dependency 'Reachability'
-  s.dependency 'SVProgressHUD'
-  s.dependency 'MBProgressHUD'
+#  s.dependency 'AFNetworking'
+#  s.dependency 'Reachability'
+#  s.dependency 'SVProgressHUD'
+#  s.dependency 'MBProgressHUD'
   
   # s.resource_bundles = {
   #   'DRNetWork' => ['DRNetWork/Assets/*.png']
