@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - DRNetWork (0.1.0):
+  - DRNetWork (0.1.1):
     - AFNetworking
     - MBProgressHUD
     - Reachability
@@ -46,12 +46,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  DRNetWork: 5cc721357606e261d40bafe6baf1b040f476f65c
+  DRNetWork: 64dda9c470930261ffa23c1db9778cda930ddb52
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: b3a522901e6d0499a127d32085b72b0e2edc23c0
+PODFILE CHECKSUM: 3e57179eac6b6593ea0aa9874574ff575dc29367
 
 COCOAPODS: 1.11.3
