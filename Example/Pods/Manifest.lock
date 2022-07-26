@@ -19,23 +19,16 @@ PODS:
     - MBProgressHUD
     - Reachability
     - SVProgressHUD
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - MBProgressHUD (1.2.0)
   - Reachability (3.2)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - DRNetWork (from `../`)
-  - FBSnapshotTestCase
 
 SPEC REPOS:
   trunk:
     - AFNetworking
-    - FBSnapshotTestCase
     - MBProgressHUD
     - Reachability
     - SVProgressHUD
@@ -46,12 +39,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  DRNetWork: 64dda9c470930261ffa23c1db9778cda930ddb52
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  DRNetWork: 3beaaa61e32bc16183990781866b45928f6037d4
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 3e57179eac6b6593ea0aa9874574ff575dc29367
+PODFILE CHECKSUM: a7f5edd71fd21800bfdcf1ef8cf1cef444fa0f49
 
 COCOAPODS: 1.11.3

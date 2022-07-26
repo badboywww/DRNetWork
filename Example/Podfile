@@ -6,7 +6,5 @@ target 'DRNetWork_Example' do
   pod 'DRNetWork', :path => '../'
   target 'DRNetWork_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
   end
 end
