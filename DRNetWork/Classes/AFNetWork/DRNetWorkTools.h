@@ -11,12 +11,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef enum : NSUInteger {
+typedef NS_ENUM(NSInteger, NetworkMethod) {
     GET = 0,
     POST = 1,
     PUT  = 2,
     DELETE = 3,
-} NetworkMethod;
+};
 
 typedef enum : NSUInteger {
     Jpg,
@@ -46,6 +46,8 @@ typedef void (^SuccessString)(NSString * _Nullable result);   // 文字版返回
 
 @interface DRNetWorkTools : NSObject
 
+@property (nonatomic, strong) NSMutableDictionary *headerDict;
+
 + (DRNetWorkTools *)sharedManager;
 
 /// 判断当前网络状态
@@ -60,6 +62,7 @@ typedef void (^SuccessString)(NSString * _Nullable result);   // 文字版返回
 /// @param failed 失败返回
 - (void)netWorkWithURL:(NSString *)url
                 method:(NetworkMethod)thod
+                header:(NSMutableDictionary *)header
                 params:(nullable id)params
                success:(SuccessBlock)success
                 failed:(FailedBlock)failed;

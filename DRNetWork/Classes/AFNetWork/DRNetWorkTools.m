@@ -144,9 +144,7 @@ static AFURLSessionManager  *session;
 /// 头文件
 - (NSDictionary *)setupHttpsHeader {
     NSMutableDictionary *headers = [[NSMutableDictionary alloc]init];
-//    [manager.requestSerializer setValue:@"" forHTTPHeaderField:@"token"];
-//    [headers setValue:@"" forKey:@"token"];
-    return headers;
+    return _headerDict.allKeys == 0 ? headers : _headerDict;
 }
 
 #pragma mark 基本请求方式
@@ -159,10 +157,11 @@ static AFURLSessionManager  *session;
 /// @param failed 失败返回
 - (void)netWorkWithURL:(NSString *)url
                 method:(NetworkMethod)thod
+                header:(NSMutableDictionary *)header
                 params:(nullable id)params
                success:(SuccessBlock)success
                 failed:(FailedBlock)failed {
-    
+    _headerDict = header;
     switch (thod) {
         case GET:
             [self getDataForGETAndCompletedURL:url
@@ -595,6 +594,16 @@ static AFURLSessionManager  *session;
     } failed:^(NSString * _Nonnull result) {
         [MBProgressHUD showToastAndMessage:result places:0 toView:nil];
     }];
+}
+
+
+#pragma mark test
+
+- (NSMutableDictionary *)headerDict {
+    if (!_headerDict) {
+        _headerDict = @{};
+    }
+    return _headerDict;
 }
 
 @end

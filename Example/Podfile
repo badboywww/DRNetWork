@@ -1,10 +1,28 @@
 use_frameworks!
 
-platform :ios, '11.0'
+platform :ios, '13.0'
 
 target 'DRNetWork_Example' do
   pod 'DRNetWork', :path => '../'
+  
   target 'DRNetWork_Tests' do
     inherit! :search_paths
+    # 可在此添加测试专用库（如 Quick/Nimble）
+  end
+end
+
+# ✅ 2. 在文件底部添加 post_install 钩子（关键配置）
+post_install do |installer|
+  # 2.1 遍历所有 Pod 目标，统一设置部署目标和禁用 Bitcode
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'  # 强制所有 Pod 支持 iOS 13+
+      config.build_settings['ENABLE_BITCODE'] = 'NO'                # 禁用 Bitcode
+    end
+  end
+
+  # 2.2 解决 Apple Silicon 设备模拟器编译问题（排除 arm64）
+  installer.pods_project.build_configurations.each do |config|
+    config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
   end
 end
