@@ -7,6 +7,7 @@
 //
 
 #import "DRViewController.h"
+#import <DRNetWork/DRNetWorkToolsHeader.h>
 
 @interface DRViewController ()
 
@@ -18,12 +19,26 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self test];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (void)test {
+    
+    [DRNetWorkTools.sharedManager netWorkWithURL:@"https://www.baidu.com" method:(NetworkMethod)0 header:@{
+        @"a":@"a",
+        @"b":@"b"
+    } params:nil success:^(id _Nonnull) {
+        
+    } failed:^(id _Nonnull) {
+        
+    }];
 }
 
 @end
