@@ -23,7 +23,7 @@
 		3D782DF844D53033A8CA9C7F29C57103 /* Pods-DRNetWork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3463F1A6CA9F18A219AC39227E0FA4 /* Pods-DRNetWork_Example-dummy.m */; };
 		3FF7252DD60182221BB1E5A167C41A07 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D494EC15D48FBDA4C0F6CDA78E4EE8 /* UIProgressView+AFNetworking.m */; };
 		41A257DE697E0424EDBFE6FBEDD0BEED /* DRNetWork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1792C117FA7429B5E53094E371D81D69 /* DRNetWork-dummy.m */; };
-		43821B70BEE69E650B21BDBE0FAEB9FA /* Reachability-Reachability_Privacy in Resources */ = {isa = PBXBuildFile; fileRef = DFC89BE171DE7E648C53797695D8A220 /* Reachability-Reachability_Privacy */; };
+		43821B70BEE69E650B21BDBE0FAEB9FA /* Reachability_Privacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFC89BE171DE7E648C53797695D8A220 /* Reachability_Privacy.bundle */; };
 		458053980DD43078484841F81AAF4D81 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF2D2B92735D5023087B6CA5CFB2C95 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48CA6CE9E3626CF5F4C9C0CE8F03AE05 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D326F38B1F19D076BF8E3A213A1AB423 /* SVRadialGradientLayer.m */; };
 		4CEC34F116F7B77236F8B600B1951C55 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 8595E94843BBED641A0D6416F5613FA0 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -182,7 +182,7 @@
 		0DD717DA446F9A486FABE3FF3594584C /* Reachability.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.release.xcconfig; sourceTree = "<group>"; };
 		0F218286C29A42E463DF86088581B3D9 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		11614F644B69A3B09F9D0E070EDD3054 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		13206BAB6338CB888960C0F48F965701 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = SVProgressHUD/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		13206BAB6338CB888960C0F48F965701 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = SVProgressHUD/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		1429028F80D4367C2833F6113ED67B6D /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		1792C117FA7429B5E53094E371D81D69 /* DRNetWork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRNetWork-dummy.m"; sourceTree = "<group>"; };
 		17E75CA667A16B5327C87F9B1412CED4 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
@@ -191,7 +191,7 @@
 		1EA4FC37E951F05600F0F842FBDD7971 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		1EB5A37FF0059831A2727626884FF8EB /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		220AD62A75A0F366F2A64186C93E7E75 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		252680021FE371C09CBF21DFC6FBAE18 /* DRNetWork */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRNetWork; path = DRNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		252680021FE371C09CBF21DFC6FBAE18 /* DRNetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DRNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		268BAF9BFBEA5F85F0DF55F7B3BE4EBC /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		2AC9D1B6E15E6D98BBD245F4B08F4ED1 /* Pods-DRNetWork_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DRNetWork_Tests.modulemap"; sourceTree = "<group>"; };
 		2BD30E82304B065A557A4E3879528192 /* DRNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRNetWork.debug.xcconfig; sourceTree = "<group>"; };
@@ -202,8 +202,8 @@
 		392377FED9A6976F0A582F0CF3280BB6 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		3B2AB2D91EBD073FCB2EE031FC3B83C9 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		3CFF8484B99BDAE1E8C830BEC7D313B5 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
-		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4363B4AEAE570629339CD11F8F80D51A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4363B4AEAE570629339CD11F8F80D51A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		449DF4B400681F8C21CB210D35566B7D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		45793DC7A7B654E6AB6ED6C53B433D73 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		463F3E3E248CCF4825F4E58D46D62CE2 /* DRNetWorkToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRNetWorkToolsHeader.h; path = DRNetWork/Classes/DRNetWorkToolsHeader.h; sourceTree = "<group>"; };
@@ -217,7 +217,7 @@
 		5CF2D2B92735D5023087B6CA5CFB2C95 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		61E004F12BCA2523B10E37369FD33011 /* Pods-DRNetWork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRNetWork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6483E7A4DE2C05C7471369A9E1C9C79D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		68A0F6709D3745F9DDE210AEBAB736A7 /* DRNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DRNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68A0F6709D3745F9DDE210AEBAB736A7 /* DRNetWork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DRNetWork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		699E427B398473AC66929CDA03CC88F0 /* MBProgressHUD+Progress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Progress.h"; sourceTree = "<group>"; };
 		6B102C8E3F634E1554DAD1C9C87D03F0 /* Pods-DRNetWork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRNetWork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6CEEACB873328ECD079D5D1BBB3A056C /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
@@ -235,27 +235,27 @@
 		8595E94843BBED641A0D6416F5613FA0 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		86A873F04969121B6FAD00E9A936A5A1 /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		8927F74E26B1C69F16C55FA586C63D62 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F6C7997CF69E11E6510F478B70D035 /* Pods-DRNetWork_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRNetWork_Example-umbrella.h"; sourceTree = "<group>"; };
 		944AF0DF86BC0D032460AB5D3CF31EFF /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		948E94482C3497C3315E20EE5287A410 /* DRNetWork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DRNetWork.modulemap; sourceTree = "<group>"; };
 		972D5A2B5B949FD0AC3BCB014F6CD013 /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
-		97EA289DF005469561819B70BA8D348F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		97EA289DF005469561819B70BA8D348F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9966976CC9ED777613A53B66E9227A38 /* Pods-DRNetWork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRNetWork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9BBF1FFE080173A0CC1204BE010DE8EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB7D7A5B9B1533992D6B058E7937A1F /* DRNetWork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRNetWork-prefix.pch"; sourceTree = "<group>"; };
 		9F3097F481F1F5D696C0B10B829537F1 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		A236BDCE3C22D15D3756C41A9560FEDB /* DRNetWorkTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DRNetWorkTools.h; sourceTree = "<group>"; };
 		A322C83729F9CF67A848EB483177556D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A531471E14CE21BDCC35173681727320 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		A5706282DDDACE480B303A68504D71A9 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		A59C044B79EF576B371FF2AAB3DE8021 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Framework/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A59C044B79EF576B371FF2AAB3DE8021 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Framework/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		A5BA16CE141153176928FB929C2695B1 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		A8B2AA5C3C448C5227DC9073AA1B0CB8 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		AAF4246942A8AC669D00DDEC1F53921D /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
-		AD55E4A796ED20CF09804DF7F62AE9E8 /* Pods-DRNetWork_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DRNetWork_Example"; path = Pods_DRNetWork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD55E4A796ED20CF09804DF7F62AE9E8 /* Pods_DRNetWork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRNetWork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE85B4754B097C0C481034B589614CFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		B36CDDE692CF8782ABDD1790724F3C84 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		B5E4CEA8E695ECCD3401D3ECC5871D7D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
@@ -268,7 +268,7 @@
 		C4AC5B74A53666017AC4E3C311B3C394 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		C4F1D3954662D024F058C1C82A7EF526 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		C6A6B2F12D443280D76B38B320604D72 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		C71BB997B400FD7F0B54647CAE84A9B2 /* Pods-DRNetWork_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DRNetWork_Tests"; path = Pods_DRNetWork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71BB997B400FD7F0B54647CAE84A9B2 /* Pods_DRNetWork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRNetWork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96C9006ACB2E1DE461CD85D8D08076B /* DRNetWork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DRNetWork-Info.plist"; sourceTree = "<group>"; };
 		CC12AEA5C1D0334527CF78A067E34670 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		CC3463F1A6CA9F18A219AC39227E0FA4 /* Pods-DRNetWork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRNetWork_Example-dummy.m"; sourceTree = "<group>"; };
@@ -279,12 +279,12 @@
 		D59AC67665AE74EEB2D7E0BFB4A5C214 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		D7D75E76657F31D9E264C29B84EE52DB /* DRNetWorkTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DRNetWorkTools.m; sourceTree = "<group>"; };
 		DBA411436C54664D9283423B15F52605 /* WKWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+AFNetworking.m"; path = "UIKit+AFNetworking/WKWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		DFC89BE171DE7E648C53797695D8A220 /* Reachability-Reachability_Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Reachability-Reachability_Privacy"; path = Reachability_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC89BE171DE7E648C53797695D8A220 /* Reachability_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Reachability_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C89DCD35CD7C65B59EF16E8F1B6D2D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		E12109039E3890A9E8B96D20B010924E /* Pods-DRNetWork_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRNetWork_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E4505F14CEB9DCEDE4392CF9CCAC548D /* Pods-DRNetWork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRNetWork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E7D494EC15D48FBDA4C0F6CDA78E4EE8 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9DC6F8159942994308D793357469F9A /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		EB9708DDE65330504D79ED5C79410D05 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		F16A8D6D95AFC4F52D433A7AB8E4F851 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -467,14 +467,14 @@
 		33DACBE3B5BDA388AFA155C21E1DB31E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */,
-				252680021FE371C09CBF21DFC6FBAE18 /* DRNetWork */,
-				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */,
-				AD55E4A796ED20CF09804DF7F62AE9E8 /* Pods-DRNetWork_Example */,
-				C71BB997B400FD7F0B54647CAE84A9B2 /* Pods-DRNetWork_Tests */,
-				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */,
-				DFC89BE171DE7E648C53797695D8A220 /* Reachability-Reachability_Privacy */,
-				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */,
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
+				252680021FE371C09CBF21DFC6FBAE18 /* DRNetWork.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				AD55E4A796ED20CF09804DF7F62AE9E8 /* Pods_DRNetWork_Example.framework */,
+				C71BB997B400FD7F0B54647CAE84A9B2 /* Pods_DRNetWork_Tests.framework */,
+				400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */,
+				DFC89BE171DE7E648C53797695D8A220 /* Reachability_Privacy.bundle */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -547,7 +547,6 @@
 				7DA16936AD9005F5FFB249E878793028 /* MBProgressHUD.m */,
 				0528C780730AB5BD3B432EE77AC21B5C /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -585,7 +584,6 @@
 				1CEC48852F72B09774375CA3B3105C58 /* Resources */,
 				ABD943058BA7324278CF801914EEF1C2 /* Support Files */,
 			);
-			name = Reachability;
 			path = Reachability;
 			sourceTree = "<group>";
 		};
@@ -651,7 +649,6 @@
 				CEC126CD1B0BC4213DF5307B3A1EE09D /* Core */,
 				A87D6A9EC2E3E3673B2B6C9C2252B88F /* Support Files */,
 			);
-			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -674,7 +671,6 @@
 				3ED1B5F1085C381F58E0D7892143D3B2 /* Support Files */,
 				103B5FB3B30FBE64D6A1A7C5CE9BA69A /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -842,7 +838,7 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking */;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
@@ -860,7 +856,7 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		59D8DADD8E40D3E74A9795C2CC1374F3 /* Pods-DRNetWork_Tests */ = {
@@ -879,7 +875,7 @@
 			);
 			name = "Pods-DRNetWork_Tests";
 			productName = Pods_DRNetWork_Tests;
-			productReference = C71BB997B400FD7F0B54647CAE84A9B2 /* Pods-DRNetWork_Tests */;
+			productReference = C71BB997B400FD7F0B54647CAE84A9B2 /* Pods_DRNetWork_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
@@ -897,7 +893,7 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8792E33451888FDEC3E09C9B7BECE2B8 /* Pods-DRNetWork_Example */ = {
@@ -920,7 +916,7 @@
 			);
 			name = "Pods-DRNetWork_Example";
 			productName = Pods_DRNetWork_Example;
-			productReference = AD55E4A796ED20CF09804DF7F62AE9E8 /* Pods-DRNetWork_Example */;
+			productReference = AD55E4A796ED20CF09804DF7F62AE9E8 /* Pods_DRNetWork_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CAA047C0F5E4106F3904E8497FA17F97 /* Reachability */ = {
@@ -939,7 +935,7 @@
 			);
 			name = Reachability;
 			productName = Reachability;
-			productReference = 400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability */;
+			productReference = 400FF55D0451E7A8F33A3D0D3E11C1B9 /* Reachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D2787856C227A709315E3C9C4355A440 /* Reachability-Reachability_Privacy */ = {
@@ -956,7 +952,7 @@
 			);
 			name = "Reachability-Reachability_Privacy";
 			productName = Reachability_Privacy;
-			productReference = DFC89BE171DE7E648C53797695D8A220 /* Reachability-Reachability_Privacy */;
+			productReference = DFC89BE171DE7E648C53797695D8A220 /* Reachability_Privacy.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DC936BB07D8CB477110535278C3C2868 /* DRNetWork */ = {
@@ -978,7 +974,7 @@
 			);
 			name = DRNetWork;
 			productName = DRNetWork;
-			productReference = 252680021FE371C09CBF21DFC6FBAE18 /* DRNetWork */;
+			productReference = 252680021FE371C09CBF21DFC6FBAE18 /* DRNetWork.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -999,8 +995,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 33DACBE3B5BDA388AFA155C21E1DB31E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1029,7 +1023,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43821B70BEE69E650B21BDBE0FAEB9FA /* Reachability-Reachability_Privacy in Resources */,
+				43821B70BEE69E650B21BDBE0FAEB9FA /* Reachability_Privacy.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1482,7 +1476,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
 				PRODUCT_MODULE_NAME = AFNetworking;
@@ -1659,7 +1653,7 @@
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
 				PRODUCT_MODULE_NAME = AFNetworking;
@@ -1731,8 +1725,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
