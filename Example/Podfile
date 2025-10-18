@@ -16,7 +16,7 @@ post_install do |installer|
   # 2.1 遍历所有 Pod 目标，统一设置部署目标和禁用 Bitcode
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
-      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'  # 强制所有 Pod 支持 iOS 13+
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '14.0'  # 强制所有 Pod 支持 iOS 14+
       config.build_settings['ENABLE_BITCODE'] = 'NO'                # 禁用 Bitcode
     end
   end
